@@ -4,12 +4,14 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { BodyComponent } from './body/body.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    BodyComponent
+    BodyComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule
